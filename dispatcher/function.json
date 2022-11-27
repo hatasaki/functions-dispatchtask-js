@@ -1,0 +1,11 @@
+{
+  "bindings": [
+    {
+      "name": "jobqueueItem",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "jobqueue",
+      "connection": "StorageConnection"
+    }
+  ]
+}
